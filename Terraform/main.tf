@@ -1,6 +1,6 @@
 #---------------- Network Module ---------------------
 module "network" {
-  source                    = "git::https://github.com/AbdassalamAhmad/DevOps_Learning_Journey.git//Terraform/networking"
+  source                    = "./networking"
   vpc_cidr                  = var.vpc_cidr
   public_subnet_1_cidr      = var.public_subnet_1_cidr
   public_subnet_2_cidr      = var.public_subnet_2_cidr
